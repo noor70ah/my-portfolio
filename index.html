@@ -1,61 +1,190 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Nursebah | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- Navigation -->
     <header>
-        <h1>Nursebah</h1>
-        <p>Aspiring Software Engineer</p>
+        <a href="#home" class="logo">Nursebah 💜</a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- Home Section -->
+    <section id="home" class="hero">
 
-    <section id="home">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Hello! I am a software engineering student learning to build websites.</p>
+        <div class="hero-text">
+            <p class="welcome">Hello, I'm 👋</p>
+
+            <h1>Nursebah</h1>
+
+            <h2>Aspiring Software Engineer</h2>
+
+            <p>
+                I'm a software engineering student who loves
+                learning new technologies, building creative
+                projects, and turning ideas into reality.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Nursebah's profile picture">
+        </div>
+
     </section>
 
+    <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a software engineering student who enjoys learning programming and creating projects.</p>
+
+        <p class="section-label">Get to know me</p>
+
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            I'm a software engineering student at Arba Minch
+            University. I enjoy learning programming, solving
+            problems, and creating useful projects.
+
+            My goal is to become a skilled software engineer
+            and build technology that makes a positive impact.
+        </p>
+
     </section>
 
+    <!-- Skills Section -->
     <section id="skills">
-        <h2>My Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-        </ul>
+
+        <p class="section-label">What I'm learning</p>
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Building webpage structures</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Styling beautiful websites</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Learning interactive websites</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>C++</h3>
+                <p>Learning programming fundamentals</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <p>Managing my project versions</p>
+            </div>
+
+        </div>
+
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
-        <p>Here I will showcase the projects I create while learning.</p>
+
+        <p class="section-label">Things I've created</p>
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Calculator</h3>
+
+                <p>
+                    A calculator built with HTML, CSS,
+                    and JavaScript to perform basic arithmetic.
+                </p>
+
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do List</h3>
+
+                <p>
+                    A task manager designed to help users
+                    organize their daily activities.
+                </p>
+
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    My personal website, built to showcase
+                    my skills, projects, and learning journey.
+                </p>
+
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+        </div>
+
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
+        <p class="section-label">Let's connect</p>
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p>
+            Thank you for visiting my portfolio!
+            Feel free to contact me.
+        </p>
+
         <p>Email: nursebahaweke@gmail.com</p>
-        <p>GitHub: noor70ah</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/noor70ah"
+               target="_blank"
+               rel="noopener noreferrer">
+                Visit My GitHub
+            </a>
+        </p>
+
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Nursebah. All rights reserved.</p>
+        <p>&copy; 2026 Nursebah. All rights reserved. 💜</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
